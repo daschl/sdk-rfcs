@@ -163,7 +163,7 @@ The following user errors need to be covered by the SDKs:
  - **C:** ``
  - **Go:** ``
  - **Java:** `N1qlParams consistentWith(String... ids)`
- - **.NET:** ``
+ - **.NET:** `IQueryRequest ConsistentWith(params string[] ids)`
  - **NodeJS:** ``
  - **PHP:** ``
  - **Python:** ``
@@ -175,7 +175,7 @@ The following user errors need to be covered by the SDKs:
 - **C:** ``
 - **Go:** ``
 - **Java:** `N1qlParams consistentWith(MutationToken... mutationTokens)`
-- **.NET:** ``
+- **.NET:** `IQueryRequest ConsistentWith(params MutationToken[] mutationTokens)`
 - **NodeJS:** ``
 - **PHP:** ``
 - **Python:** ``
@@ -187,7 +187,7 @@ The following user errors need to be covered by the SDKs:
 - **C:** ``
 - **Go:** ``
 - **Java:** `N1qlParams consistentWith(Bucket... buckets)`
-- **.NET:** ``
+- **.NET:** `IQueryRequest ConsistentWith(params IBucket[] buckets)`
 - **NodeJS:** ``
 - **PHP:** ``
 - **Python:** ``
